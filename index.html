@@ -1,7 +1,40 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-<meta charSet="utf-8"/>
+<meta charset="utf-8"/>
+<link rel="icon" type="image/png" href="/favicon.png">
+
+<style>
+body {
+    background-color: #07142b !important;
+    color: white !important;
+}
+
+body * {
+    color: white !important;
+}
+
+a, button, span, p, h1, h2, h3, li {
+    color: white !important;
+}
+
+.service-card {
+    transition: all 0.35s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(196,151,58,0.45) !important;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
+
+a:hover,
+button:hover {
+    opacity: 0.92;
+    transform: translateY(-2px);
+    transition: 0.25s ease;
+}
+</style>
     <meta name="description" content="Finanční a realitní poradkyně v Mladé Boleslavi. Hypotéka, refinancování, pojištění, spoření, investice, penzijní spoření, koupě nemovitosti — srovnám celý trh a najdu nejlepší řešení pro vás. Konzultace zdarma."/>
     <meta name="author" content="Mária Žiaková"/>
     <meta name="keywords" content="hypotéka Mladá Boleslav,hypotéka srovnání,nejlepší hypotéka,hypoteční poradce,refinancování hypotéky,hypotéka kalkulačka,hypotéka bez poplatků,pojištění srovnání,životní pojištění,pojištění nemovitosti,pojištění domácnosti,pojištění pro rodinu,úrazové pojištění,pojistka srovnání,spoření pro děti,investice poradce,penzijní spoření,stavební spoření,ETF investice,jak spořit peníze,výhodné spoření,koupě nemovitosti poradenství,realitní poradce Mladá Boleslav,financování nemovitosti,nemovitost jako investice,půjčka srovnání,konsolidace půjček,pasivní příjem renta,finanční nezávislost,finanční poradce Mladá Boleslav,finanční plán rodina,nezávislý finanční poradce,finanční poradenství zdarma,Broker Consulting,Mária Žiaková"/>
@@ -73,7 +106,7 @@
                         <span style="color:var(--gold)">Žiaková</span>
                     </span>
                 </div>
-                <nav style="gap:2.2rem;display:none" class="desktop-nav">
+                <nav style="gap:2.2rem;display:flex;align-items:center" class="desktop-nav">
                     <a href="#o-mne" class="nav-link">O mně</a>
                     <a href="#sluzby" class="nav-link">Služby</a>
                     <a href="#postup" class="nav-link">Jak to funguje</a>
@@ -81,7 +114,7 @@
                     <a href="#faq" class="nav-link">FAQ</a>
                     <a href="#kontakt" class="nav-link">Kontakt</a>
                 </nav>
-                <a href="#kontakt" class="desktop-cta" style="display:none;background:#d4af37;
+                <a href="#kontakt" class="desktop-cta" style="display:inline-block;background:#d4af37;
 box-shadow:0 8px 30px rgba(212,175,55,0.35);color:var(--navy);padding:0.5rem 1.5rem;font-size:0.75rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;text-decoration:none;transition:background 0.3s ease">Schůzka zdarma</a>
                 <button class="mobile-menu-btn" style="background:none;border:none;cursor:pointer;padding:0.5rem" aria-label="Otevřít menu">
                     <div style="width:24px;height:2px;background:var(--cream);margin-bottom:5px;transition:all 0.3s;opacity:1;transform:none"></div>
